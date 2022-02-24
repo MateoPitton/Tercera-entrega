@@ -1,0 +1,17 @@
+/**********************************
+Variables y mapas
+***********************************/
+$rojo: red;
+/*Mapas*/
+$redes:(
+    mail: #f56512,
+    snapchat: yellow,
+    youtube: red,
+    facebook: blue,
+    );
+    @each $clave, $valor in $redes {
+        .boton-#{$clave}{
+            background-color: $valor;
+            border: black;
+        }
+    }

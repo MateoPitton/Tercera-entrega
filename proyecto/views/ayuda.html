@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/destino.css">
+    <title>Ayuda</title>
+    <style>
+        .texto {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Eiche_bei_Graditz.jpg" alt="inicio"></a>
+        <p class="copy">copyright</p>
+        <nav>
+            <ul>
+                <li><a href="../views/ayuda.html">Ayuda</a></li>
+                <li><a href="../views/nosotros.html">Nosotros</a></li>
+                <li><a href="../views/contacto.html">Contacto</a></li>
+                <li><a href="../views/donadores.html">Donaciones</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <table border="1" cellpadding=15>
+            <tr>
+                <td>Nombre</td>
+                <td>Raza</td>
+                <td>Edad</td>
+                <td>Sexo</td>
+                <td>Enfermedad</td>
+            </tr>
+            <tr>
+                <td>Ori</td>
+                <td>Gato</td>
+                <td>3 años</td>
+                <td>Macho</td>
+                <td>Parcialmente ciego</td>
+            </tr>
+        </table>
+        <br>
+        <img src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg" alt="img" class="imgA">
+        <hr>
+        <br>
+        <table border="1" cellpadding=15 >
+            <form action="" method="">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre/Nombres" required><br><br>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido/Apellidos" required><br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="correo electronico" required><br><br>
+                <label for="cantidad">cantidad a donar</label>
+                <input type="number" name="cantidad" id="cantidad" placeholder="cantidad" required><br><br>
+                <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Deje su comentario"></textarea><br><br>
+                <input type="button" value="enviar">
+                <input type="button" value="borrar">
+            </form>
+        </table>
+    </main>
+    <br>
+    <footer>
+        <fieldset>
+            <h3>redes sociales</h3>
+            <p class="boton-facebook">facebook</p>
+            <p class="boton-mail">mail</p>
+            <p class="boton-snapchat">snapchat</p>
+    </fieldset>
+    </footer>
+</body>
+</html>
